@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# uv
+.python-version
+
+# Environment / secrets
+.env
+.env.*
+
+# Model files (large binaries — store outside the repo)
+models/
+*.gguf
+
+# Exercise logs and outputs
+exercise_log_*.json
+mac/exercise_log_*.json
+
+# Server logs
+wsl/logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
